@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:orientation="vertical"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/app_name"
+        android:background="@color/black"
+        app:titleTextColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bricklane (SR Ma'am 324)"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:background="#43000000"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ezrapound (KKU Ma'am 322)"
+        android:textAllCaps="false"
+        android:background="#384CAF50"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+</LinearLayout>
